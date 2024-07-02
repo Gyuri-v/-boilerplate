@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite & npm run sass",
+    "dev": "vite --host 0.0.0.0 --port 1001 --open=/",
     "build": "vite build",
-    "preview": "vite preview",
-    "sass": "sass --watch src/scss/style.scss:src/css/style.css"
+    "preview": "vite preview --host 0.0.0.0 --port 1011 --open=/"
   },
   "devDependencies": {
     "vite": "^4.0.0"
